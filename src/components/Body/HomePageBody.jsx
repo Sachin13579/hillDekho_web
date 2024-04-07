@@ -25,9 +25,9 @@ const HomePageBody = () => {
                     />
                 </div>
                 {/* /</div><div className="max-w-screen-lg m-auto h-[200vh] py-5 px-5 my-10 text-center text-2xl round"> */}
-                <div className="min-h-[300px] absolute z-50 h-full max-w-6xl mx-auto flex flex-col justify-center items-center text-center text-white p-6">
-                    <h2 className={`${playFairDisplay.className} text-white font-extrabold text-4xl`}>Unleash your wanderlust</h2>
-                    <p className="text-lg text-center text-gray-200">Embark on unforgettable journeys. Book your dream vacation today!</p>
+                <div className="min-h-[300px]  absolute  h-screen  max-w-6xl mx-auto  flex flex-col justify-center items-center text-center text-white p-6">
+                    <h2 className={`${playFairDisplay.className} text-white text-3xl font-extrabold lg:text-6xl`}>Unleash your wanderlust</h2>
+                    <p className="text-base font-normal lg:text-xl text-center text-white mt-4">Dive into our meticulously curated destinations and start planning your next escapade.</p>
                     {/* <button
                         // className="mt-8 bg-Aquamarine-300 text-white text-base font-semibold py-2.5 px-6 border-2 border-white rounded hover:bg-white hover:text-black transition duration-300 ease-in-out"
                         className=" mt-8 bg-teal-400 rounded-md flex w-40 py-3 px-7 justify-center items-center gap-2 hover:bg-white hover:text-black transition duration-300 ease-in-out"
@@ -41,13 +41,14 @@ const HomePageBody = () => {
 
 
                 <div
-                    className="absolute  inset-x-0 bottom-0 "
+                    className="absolute z-0  inset-x-0 bottom-0 "
                 >
                     <div className=" mb-1 h-4 w-full blur-md bg-red-50" />
 
                     <Categories />
                 </div>
             </div >
+
 
 
         </main >

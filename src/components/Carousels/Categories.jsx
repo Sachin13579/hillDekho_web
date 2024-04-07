@@ -126,7 +126,7 @@ const Categories = () => {
         "
             >
 
-                {categories.map((item) => (
+                {/* {categories.map((item) => (
                     <div key={item.label}>
                         <CategoryBox
                             key={item.label}
@@ -134,17 +134,17 @@ const Categories = () => {
                             icon={item.icon}
                         />
                     </div>
-                ))}
+                ))} */}
 
 
-                {/* {categories.map((item) => (
+                {categories.map((item) => (
                     <CategoryBox
                         key={item.label}
                         label={item.label}
                         icon={item.icon}
                     // selected={category === item.label}
                     />
-                ))} */}
+                ))}
             </div>
         </Container>
     );

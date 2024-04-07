@@ -235,7 +235,7 @@ const Footer = () => {
                                         />
 
                                         <button
-                                            className="block rounded-md bg-teal-400  px-8 py-3 font-medium text-white transition hover:bg-teal-800 "
+                                            className="block w-48 rounded-md bg-teal-400  px-8 py-3 font-medium text-white transition hover:bg-teal-800 "
                                             type="submit"
                                         >
                                             Subscribe
