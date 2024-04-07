@@ -38,7 +38,7 @@ const Navbar = () => {
 
 
                         <Link href="/" className="-m-1.5 p-0">
-                            <span className="sr-only">Hill Dekho</span>
+                            {/* <span className="sr-only">Hill Dekho</span> */}
                             <Image className=" h-8  lg:h-12 w-auto " src="/hillDekhoLogo.png" alt="" width={100} height={500} />
                         </Link>
                     </div>

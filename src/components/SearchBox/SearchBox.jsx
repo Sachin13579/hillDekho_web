@@ -9,7 +9,7 @@ const SearchBox = () => {
                 </div>
 
                 <input
-                    className="peer bg-zinc-100 h-full w-full outline-none text-sm text-gray-700 pr-2"
+                    className="peer bg-zinc-100 h-full w-full border-transparent text-sm text-gray-700 pr-2"
                     type="text"
                     id="search"
                     placeholder="Search your destination.." />
