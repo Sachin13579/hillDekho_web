@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import SearchBox from "../SearchBox/SearchBox";
-import MobileDrawer from './mobileDrawer'
+import MobileDrawer from './MobileDrawer'
 import Link from 'next/link';
 import { useState } from "react";
 const Navbar = () => {
