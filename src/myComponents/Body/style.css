@@ -1,0 +1,6 @@
+.blur-top {
+    content: "";
+    position: absolute;
+    backdrop-filter: blur(8px);
+    /* Adjust the blur intensity */
+}

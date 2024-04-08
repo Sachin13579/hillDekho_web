@@ -1,5 +1,5 @@
 
-import HomePageBody from "../../components/Body/HomePageBody";
+import HomePageBody from "../../myComponents/Body/HomePageBody";
 const HomePage = () => {
     return (
         <div>

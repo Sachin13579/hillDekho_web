@@ -3,7 +3,9 @@ import Image from "next/image";
 import SearchBox from "../SearchBox/SearchBox";
 import MobileDrawer from './MobileDrawer'
 import Link from 'next/link';
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import clsx from "clsx";
+import { usePathname } from "next/navigation";
 const Navbar = () => {
     const navLinks = [
         {
@@ -23,11 +25,15 @@ const Navbar = () => {
             link: "/ContactUs"
         }
     ]
+    const pathname = usePathname();
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
     const handleDrawerToggle = () => {
         console.log(isDrawerOpen ? "Drawer open" : "Drawer open closed");
         setIsDrawerOpen(!isDrawerOpen);
     };
+    const toggleOpen = useCallback(() => {
+        setIsDrawerOpen((value) => !value)
+    })
     return (
         <header className="  bg-white">
             <nav className=" p-2 mx-auto flex max-w-7xl items-center justify-between lg:p-6 lg:px-8" aria-label="Global">
@@ -48,7 +54,10 @@ const Navbar = () => {
                         {
                             navLinks.map((link) => {
                                 return (
-                                    <Link href={link.link} key={link.name}>
+                                    <Link className={clsx(
+                                        "flex h - [48px] grow items - center justify - center gap - 2 rounded - md bg - gray - 50 p - 3 text - sm font - medium hover:bg-sky-100 hover:text-blue-600 md:flex-none md:justify-start md:p-2 md:px-3",
+                                        { "bg-sky-100 text-blue-600": pathname === link.href }
+                                    )} href={link.link} key={link.name}>
                                         {/* <a className="text-gray-500 hover:text-gray-900"> */}
                                         <p className=" text-sm font-semibold leading-6 text-gray-900text-gray-500 hover:text-gray-900">
                                             {link.name}
@@ -63,7 +72,7 @@ const Navbar = () => {
                 </div>
 
                 <SearchBox />
-                <div className=" hidden lg:flex ml-10 lg:gap-x-12">
+                <div onClick={toggleOpen} className=" hidden lg:flex ml-10 lg:gap-x-12">
 
                     <Image className="h-12 w-auto" src="/authAction.png" alt="" width={100} height={500} />
                 </div>
