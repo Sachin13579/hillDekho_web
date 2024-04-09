@@ -1,4 +1,4 @@
-import Categories from "../../components/Carousels/Categories"
+import Categories from "../../myComponents/Carousels/Categories"
 
 const ConatcUs = () => {
     return (
