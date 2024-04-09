@@ -3,7 +3,6 @@ import Image from "next/image";
 import DialogComponent from './DialogComponent'
 import LocationSvgCaraousel from '../Carousels/LocationSvgCaraousel';
 import { playFairDisplay } from '../../ui-Utils/fonts.js';
-import { Borel } from "next/font/google";
 import Categories from "../../myComponents/Carousels/Categories"
 import './style.css'
 const HomePageBody = () => {
