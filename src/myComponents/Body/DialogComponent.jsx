@@ -16,7 +16,7 @@ import ProfileForm from "./PopupForm"
 const DialogComponent = () => {
     return (
 
-        <Dialog className="w-2/4">
+        <Dialog >
             <DialogTrigger asChild>
                 <Button variant="outline">Request a Call</Button>
             </DialogTrigger>

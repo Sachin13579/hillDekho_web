@@ -153,7 +153,7 @@ function ProfileForm() {
                     <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
                 </div> */}
             </div>
-            <div >
+            <div className="flex justify-center p-0 " >
 
                 <Button type="submit" variant="outline">Submit</Button>
             </div>
