@@ -21,9 +21,13 @@ module.exports = {
     extend: {
       colors: {
         pink: '#D8CFD0',
-        Aquamarine700: "#008F6F"
+        Aquamarine700: "#008F6F",
+        carouselText: "#808080"
       },
+      borderWidth: {
+        buttonBorder: "0.8px solid var(--Aquamarine- 950, #00342B)"
 
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
