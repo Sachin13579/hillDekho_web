@@ -10,7 +10,8 @@ import {
 import { Label } from "../../../components/ui/label"
 import { Input } from "../../../components/ui/input"
 import { Button } from "../../../components/ui/button"
-import ProfileForm from "./PopupForm"
+import ProfileForm from "./PopupForm";
+import { playFairDisplay } from '../../ui-Utils/fonts.js';
 
 
 const DialogComponent = () => {
@@ -22,7 +23,7 @@ const DialogComponent = () => {
             </DialogTrigger>
             <DialogContent className="sm:max-w-[425px]">
                 <DialogHeader>
-                    <DialogTitle>Create your iternary with us</DialogTitle>
+                    <DialogTitle className={`${playFairDisplay.className} mb-2`}>Create your iternary with us</DialogTitle>
                 </DialogHeader>
 
                 <ProfileForm />

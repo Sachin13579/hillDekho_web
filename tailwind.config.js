@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+// const { colors: defaultColors } = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -17,6 +19,11 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        pink: '#D8CFD0',
+        Aquamarine700: "#008F6F"
+      },
+
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
