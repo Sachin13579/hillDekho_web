@@ -5,6 +5,8 @@ import LocationSvgCaraousel from '../Carousels/LocationSvgCaraousel';
 import { playFairDisplay } from '../../ui-Utils/fonts.js';
 import Categories from "../../myComponents/Carousels/Categories";
 import PackageCarousel from './PackageCarousel';
+import LimitedTimeDeals from './LimitedTimeDeals';
+import InterNationalEscapes from './InterNationalEscapes';
 import './style.css'
 const HomePageBody = () => {
     return (
@@ -54,6 +56,8 @@ const HomePageBody = () => {
 
             </main >
             <PackageCarousel />
+            <LimitedTimeDeals />
+            <InterNationalEscapes />
         </>
     )
 }

@@ -76,13 +76,6 @@ const Navbar = () => {
 
                     <Image className="h-12 w-auto" src="/authAction.png" alt="" width={100} height={500} />
                 </div>
-                <div className="sm:hidden relative flex flex-row my-4" onClick={handleDrawerToggle}>
-                    {/* <button className="absolute right-2 top-2 p-2" onClick={handleDrawerToggle}>
-                        <FontAwesomeIcon className="text-4xl" icon={faBars} />
-                        drwaer
-                    </button> */}
-                    <Image src={'/category.svg'} width={30} height={30} alt="menuBar" />
-                </div>
                 <MobileDrawer isOpen={isDrawerOpen} onClose={handleDrawerToggle} />
             </nav>
 
