@@ -4,8 +4,9 @@ const InterNationalEscapes = () => {
     return (
 
         <main className="bg-AquamarineBG h-screen">
-            <div className="flex flex-col gap-10 w-full max-w-5xl">
-                <div className="flex flex-col w-full max-w-5xl  border-red-600 border-2 gap-2 ">
+            <div className="pt-10 flex justify-center w-full ">
+                <div className=" w-4/5 ">
+                    {/* <div className="flex flex-col w-full max-w-5xl border-2 gap-2 "> */}
 
                     <h2 className={`${playFairDisplay.className} text-3xl lg:text-5xl font-bold`}>International Escapes</h2>
                 </div>

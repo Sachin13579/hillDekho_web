@@ -7,7 +7,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "../../../components/ui/carousel";
-import CardComponent from "../Card/card";
+import CardComponent from "../Card/CardComponent";
 import { Button } from "../../../components/ui/button";
 const LimtedTimeDeals = () => {
     const traveUtilsArray = [

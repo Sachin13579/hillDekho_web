@@ -7,7 +7,7 @@ import {
     CarouselPrevious,
 } from "../../../components/ui/carousel";
 import { playFairDisplay } from "../../ui-Utils/fonts";
-import CardComponent from "../../myComponents/Card/card";
+import CardComponent from "../Card/CardComponent";
 
 const traveUtilsArray = [
     {

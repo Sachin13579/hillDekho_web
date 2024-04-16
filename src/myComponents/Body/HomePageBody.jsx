@@ -7,6 +7,7 @@ import Categories from "../../myComponents/Carousels/Categories";
 import PackageCarousel from './PackageCarousel';
 import LimitedTimeDeals from './LimitedTimeDeals';
 import InterNationalEscapes from './InterNationalEscapes';
+import { InfiniteMovingCardsDemo } from './InfiniteMovingCards'
 import './style.css'
 const HomePageBody = () => {
     return (
@@ -58,6 +59,7 @@ const HomePageBody = () => {
             <PackageCarousel />
             <LimitedTimeDeals />
             <InterNationalEscapes />
+            <InfiniteMovingCardsDemo />
         </>
     )
 }
