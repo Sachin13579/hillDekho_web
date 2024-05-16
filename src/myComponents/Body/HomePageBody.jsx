@@ -7,12 +7,12 @@ import Categories from "../../myComponents/Carousels/Categories";
 import PackageCarousel from './PackageCarousel';
 import LimitedTimeDeals from './LimitedTimeDeals';
 import InterNationalEscapes from './InterNationalEscapes';
-import { InfiniteMovingCardsDemo } from './InfiniteMovingCards'
-import './style.css'
+import { InfiniteMovingCardsDemo } from './InfiniteMovingCards';
+import GetInTouchForm from '../GetInTouch/GetInTouchForm'
+import './style.css';
 const HomePageBody = () => {
     return (
         <>
-
             <main className="flex flex-col   items-center  h-screen justify-between">
 
                 <div className=" h-screen relative w-full min-h-[300px]  z-50  flex flex-col justify-center items-center text-center text-white ">
@@ -60,6 +60,7 @@ const HomePageBody = () => {
             <LimitedTimeDeals />
             <InterNationalEscapes />
             <InfiniteMovingCardsDemo />
+            <GetInTouchForm />
         </>
     )
 }
