@@ -3,11 +3,10 @@ import Image from "next/image";
 import SearchBox from "../SearchBox/SearchBox";
 import MobileDrawer from "./MobileDrawer";
 import Link from "next/link";
-import { useCallback, useState } from "react";
+import { useState } from "react";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
 import UserMenu from "./UserMenu";
-import { User } from "lucide-react";
 const Navbar = () => {
   const navLinks = [
     {
