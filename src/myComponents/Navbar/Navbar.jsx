@@ -2,11 +2,11 @@
 import Image from "next/image";
 import SearchBox from "../SearchBox/SearchBox";
 import MobileDrawer from "./MobileDrawer";
+import UserMenu from "./Userdropdown";
 import Link from "next/link";
 import { useState } from "react";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
-import UserMenu from "./UserMenu";
 const Navbar = () => {
   const navLinks = [
     {
