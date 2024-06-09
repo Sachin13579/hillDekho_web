@@ -1,4 +1,4 @@
-const UserMenu = ({ onClick, label }) => {
+const UserMenu = () => {
   return (
     <div
       id="dropdownAvatar"
