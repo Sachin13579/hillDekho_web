@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { LoginFormPopup } from "../../myComponents/Login/loginFormPopup";
 
 const UserMenu = () => {
   const links = [
@@ -20,7 +21,13 @@ const UserMenu = () => {
           className="py-2 text-sm text-gray-700 dark:text-gray-200"
           aria-labelledby="dropdownUserAvatarButton"
         >
-          {links.map((link) => {
+          <li>
+            <LoginFormPopup text={"Login"} />
+          </li>
+          <li>
+            <LoginFormPopup text={"Sigup"} />
+          </li>
+          {/* {links.map((link) => {
             return (
               <Link
                 href={link.link}
@@ -33,7 +40,7 @@ const UserMenu = () => {
                 <p>{link.name}</p>
               </Link>
             );
-          })}
+          })} */}
           {/* <li className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
             Signup
           </li>
