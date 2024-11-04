@@ -45,7 +45,6 @@ const Navbar = () => {
         <div className="flex ml-3 lg lg:gap-x-12">
           <div className=" flex lg:flex-0 md:flex-auto">
             <Link href="/" className="-m-1.5 p-0">
-              {/* <span className="sr-only">Hill Dekho</span> */}
               <Image
                 className=" h-8  lg:h-12 w-auto "
                 src="/hillDekhoLogo.png"
@@ -67,11 +66,9 @@ const Navbar = () => {
                   href={link.link}
                   key={link.name}
                 >
-                  {/* <a className="text-gray-500 hover:text-gray-900"> */}
                   <p className=" text-sm font-semibold leading-6 text-gray-900text-gray-500 hover:text-gray-900">
                     {link.name}
                   </p>
-                  {/* </a> */}
                 </Link>
               );
             })}

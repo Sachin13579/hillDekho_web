@@ -49,7 +49,7 @@ const HomePageBody = () => {
       </main>
       <PackageCarousel />
       <LimitedTimeDeals />
-      <InterNationalEscapes />
+      {/* <InterNationalEscapes /> */}
       {/* <ProgressSlider /> */}
       <InfiniteMovingCardsDemo />
       <GetInTouchForm />
